@@ -19,8 +19,7 @@ namespace Example
 
         //
         // variables
-        //
-        string temp_nameOfItem = "";
+        //        
         float temp_quantity = 0;
         float temp_price = 0;
         float temp_discountAmount = 0;
@@ -73,8 +72,7 @@ namespace Example
             temp_DiscountedAmount = temp_price - temp_discountAmount;
         }
         private void resetOrder()
-        {
-            temp_nameOfItem = "";
+        {           
             temp_quantity = 0;
             temp_price = 0;
             temp_discountAmount = 0;
