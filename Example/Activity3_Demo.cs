@@ -118,7 +118,7 @@ namespace Example
             radiobtn_Discount.Checked = true;
 
             // set value based on picturebox clicked
-            temp_currentOrderPrice = Order1_price;
+            temp_currentOrderPrice = Order1_price;       
             currently_nameOfOrder = Order1_name;
 
             /*
@@ -301,6 +301,11 @@ namespace Example
         private void btn_9_Click(object sender, EventArgs e)
         {
             txtbox_cashrendered.Text += "9";
+        }
+
+        private void Activity3_Demo_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
