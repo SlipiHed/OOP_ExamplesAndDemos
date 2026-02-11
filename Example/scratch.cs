@@ -15,8 +15,7 @@ namespace Example
         
         public scratch()
         {
-            InitializeComponent();
-            
+            InitializeComponent();            
         }
 
         //

@@ -16,7 +16,7 @@ namespace Example
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new scratch());
+            Application.Run(new Quiz1_Example());
         }
     }
 }
