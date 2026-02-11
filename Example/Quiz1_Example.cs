@@ -21,6 +21,7 @@ namespace Example
         // LAGYAN NG VARIABLES IMBIS REKTA COMPUTE TAS ASSIGN SA TEXT
         // 
         // NOTE: Pinduten lang compute button if may value na lahat ng textbox sa lec units pati lab units para indi mag error
+        // - Sa dalawang button na clear, pede ding i set variables back to 0 para mag reset talaga ung program
 
         double CompLabFee = 0;
         double SAPFee = 2000;
