@@ -332,7 +332,11 @@ namespace Example
             textBox3.Text = totalTuition.ToString();
 
             // j total misc = 
+            double total_labunits = Convert.ToInt32(LabU1.Text) + Convert.ToInt32(LabU2.Text) + Convert.ToInt32(LabU3.Text) + Convert.ToInt32(LabU4.Text) + Convert.ToInt32(LabU5.Text) + Convert.ToInt32(LabU6.Text) + Convert.ToInt32(LabU7.Text);
+            CompLabFee = 2500 * (total_labunits);
+            textBox6.Text = CompLabFee.ToString();
             double totalMisc = CompLabFee + SAPFee + CISCOLabFee + ExamBookletFee;
+
             // same as total others fee
             textBox4.Text = totalMisc.ToString();
             textBox9.Text = totalMisc.ToString();
