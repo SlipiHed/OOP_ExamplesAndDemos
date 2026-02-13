@@ -22,6 +22,7 @@ namespace Example
         // 
         // NOTE: Pinduten lang compute button if may value na lahat ng textbox sa lec units pati lab units para indi mag error
         // - Sa dalawang button na clear, pede ding i set variables back to 0 para mag reset talaga ung program
+        // - pede gumamit try catch instead of if else pero di pa na tuturo sa yan na muna
 
         double CompLabFee = 0;
         double SAPFee = 2000;
