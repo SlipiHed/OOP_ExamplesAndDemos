@@ -235,6 +235,10 @@ namespace Example
         {
             StudName.Clear();
             StudNo.Clear();
+            StudProgram.SelectedIndex = -1;
+            StudYearLevel.SelectedIndex = -1;
+            StudProgram.SelectedIndex = -1;
+            StudScholar.SelectedIndex = -1;
         }
 
         // question 2d.
